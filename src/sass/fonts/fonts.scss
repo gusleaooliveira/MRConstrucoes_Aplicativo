@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+.text-indent { text-indent: 10px; }
+.text-indent-15 { text-indent: 15px; }
+.text-limit { overflow: scroll; text-overflow: ellipsis;  max-height: 100px;}
+.text-quotes::after, .text-quotes::before { content: "\""; }
+
+.text-tiny { font-size: 10px;  }
+.text-small { font-size: 12px; }
+.text-medium { font-size: 15px;  }
+.text-large { font-size: 18px; }
+.text-xlarge { font-size: 24px; }
+.text-xxlarge { font-size: 36px; }
+.text-xxxlarge { font-size: 48px; }
+.text-jumbo { font-size: 64px; }
+
+.text-404 {  font-size: 300px;  }
+
+
+.text-wrap { word-wrap: break-word; }
+
+
+@media screen and (max-width: 500px){
+   .text-404 { font-size: 150px; }
+}

@@ -1,0 +1,35 @@
+.bar {
+    display: flex;
+}
+.bar .btn {
+  margin: 1px;
+  width: 100%;
+}
+
+
+.bar-sticky-normal {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.bar-sticky-mobile {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+
+.bar-mobile {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+@media screen and (min-width: 600px){
+    .bar-mobile { position: inherit; left: inherit; bottom: inherit; }
+}

@@ -1,0 +1,93 @@
+.container, .panel {
+  position: relative;
+  padding: 0.0em 16px;
+}
+.panel {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card, .card-2 { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) }
+
+.padding-5 { padding: 5px; }
+.padding-top-5 { padding-top: 5px; }
+.padding-right-5 { padding-right: 5px; }
+.padding-left-5 { padding-bottom: 5px; }
+.padding-bottom-5 { padding-bottom: 5px; }
+
+.padding-10 { padding: 10px; }
+.padding-top-10 { padding-top: 10px; }
+.padding-left-10 { padding-left: 10px; }
+.padding-right-10 { padding-right: 10px; }
+.padding-bottom-10 { padding-bottom: 10px; }
+
+.padding-16 { padding: 16px; }
+.padding-top-16 { padding-top: 16px; }
+.padding-left-16 { padding-left: 16px; }
+.padding-right-16 { padding-right: 16px; }
+.padding-bottom-16 { padding-bottom: 16px; }
+
+.margin-5 { margin: 5px; }
+.margin-top-5 { margin-top: 5px; }
+.margin-left-5 { margin-left: 5px; }
+.margin-right-5 { margin-right: 5px; }
+.margin-bottom-5 { margin-bottom: 5px; }
+
+.margin-10 { margin: 10px; }
+.margin-16 { margin: 16px; }
+
+.float-left  { float: left; }
+.float-right { float: right; }
+
+
+.display-none { display: none; }
+.display-container { position: relative; }
+
+.display-top-left { position: absolute; left: 0; top: 0; }
+.display-top-right { position: absolute; right: 0; top: 0; }
+
+.display-middle { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.display-middle-top { position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%); }
+.display-middle-bottom { position: absolute; bottom: 0%; left: 50%; transform: translate(-50%, 0%); }
+
+.display-left { position: absolute; top: 50%; left: 0%; transform: translate(0%, -50%); }
+.display-right { position: absolute; top: 50%; right: 0%; transform: translate(0%, -50%); }
+
+
+.display-bottom-left { position: absolute; left: 0; bottom: 0; }
+.display-bottom-right { position: absolute; right: 0; bottom: 0; }
+
+
+
+.aling-midddle { margin: auto; }
+
+.depoiments-container  {
+      width: 315px;
+      height: 150px;
+}
+
+.sticky-top{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.sticky-bottom{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.height-total { height: 100vh; }
+
+
+@media screen and (max-width: 600px){
+  .hide-on-mobile { display: none; }
+}
+
+@media screen and (min-width: 300px){
+
+    .height-total { height: (100vh); }
+}

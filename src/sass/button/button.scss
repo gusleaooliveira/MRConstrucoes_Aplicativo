@@ -1,0 +1,45 @@
+.btn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    word-wrap: wrap;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+}
+.btn:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-block {
+  width: 100%;
+}
+
+.btn-success { background-color: $btnSuccess; color: $white; }
+.btn-success:hover { background-color: $btnSuccessHover; color: $white;  }
+.btn-info { background-color: $btnInfo; color: $white;  }
+.btn-info:hover { background-color: $btnInfoHover; color: $white;  }
+.btn-warning { background-color: $btnWarning; color: $white;  }
+.btn-warning:hover { background-color: $btnWarningHover; color: $white;  }
+.btn-danger { background-color: $btnDanger; color: $white;  }
+.btn-danger:hover { background-color: $btnDangerHover;  color: $white; }
+.btn-default { background-color: $btnDefault; color: $black;  }
+.btn-default:hover { background-color: $btnDefaultHover; color: $black;  }
+.btn-activate { background-color: $btnActivate !important; color: $white !important;  }
+.btn-activate:hover { background-color: $btnActivate !important; color: $white !important;  }
+
+.btn-circle { border-radius: 50%; }
+
+.btn-fab {
+  position: fixed;
+  bottom: 10px;
+  right: 25px;
+  width: 48px;
+  height: 48px;
+}
